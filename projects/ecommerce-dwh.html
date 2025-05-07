@@ -76,8 +76,33 @@
                         
                         <div class="code-snippet">
                             <pre>
-                                
-                            </pre>
+-- models/marts/core/fct_orders.sql
+{{ config(
+    materialized='incremental',
+    unique_key='order_id'
+) }}
+
+WITH orders AS (
+    SELECT * FROM {{ ref('stg_shopify_orders') }}
+),
+
+payment_rollup AS (
+    SELECT * FROM {{ ref('int_payment_rollup') }}
+)
+
+SELECT
+    o.order_id,
+    o.customer_id,
+    o.order_date,
+    p.total_amount,
+    p.payment_status
+FROM orders o
+LEFT JOIN payment_rollup p ON o.order_id = p.order_id
+
+{% if is_incremental() %}
+    WHERE o.updated_at >= (SELECT MAX(updated_at) FROM {{ this }})
+{% endif %}                                
+</pre>
                     </div>
                 </div>
             </div>
