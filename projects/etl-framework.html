@@ -76,7 +76,32 @@
 
                             <div class="code-snippet">
                                 <pre>
-                                    
+# dag_generator.py
+from airflow import DAG
+from airflow.operators.python_operator import PythonOperator
+from datetime import datetime
+
+def create_dag(dag_id, schedule, task_config):
+    dag = DAG(dag_id=dag_id, schedule_interval=schedule, start_date=datetime(2023, 1, 1))
+    
+    with dag:
+        previous_task = None
+        for task_name in task_config['tasks']:
+            task = PythonOperator(
+                task_id=task_name,
+                python_callable=run_etl_step,
+                op_kwargs={'step': task_name}
+            )
+            if previous_task:
+                previous_task >> task
+            previous_task = task
+            
+    return dag
+
+# Dynamically generate DAGs from config files
+for config in load_configs():
+    globals()[config['id']] = create_dag(config['id'], config['schedule'], config)
+</pre>                                    
                     </div>
                 </div>
             </div>
