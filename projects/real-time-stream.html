@@ -77,6 +77,31 @@
 
                         <div class="code-snippet">
                             <pre>
+# Sample Spark Structured Streaming logic
+def process_stream(spark):
+    df = spark.readStream \
+        .format("kafka") \
+        .option("kafka.bootstrap.servers", "broker:9092") \
+        .option("subscribe", "clickstream_events") \
+        .load()
+
+    # Parse JSON and aggregate
+    processed_df = df.select(from_json(col("value").cast("string"), schema).alias("data")) \
+        .select("data.*") \
+        .groupBy(window("timestamp", "1 minute"), "user_id") \
+        .count()
+
+    # Write to S3
+    query = processed_df.writeStream \
+        .outputMode("append") \
+        .format("parquet") \
+        .option("path", "s3://my-datalake/events/") \
+        .option("checkpointLocation", "s3://my-datalake/checkpoints/") \
+        .start()
+
+    query.awaitTermination()
+</pre>
+
                     </div>
                 </div>
             </div>
