@@ -60,6 +60,14 @@
                         <h3>The Solution</h3>
                         <p>I architected a scalable streaming pipeline on AWS. The solution decouples storage and
                             compute, ensuring high availability and fault tolerance.</p>
+                        <ul>
+                            <li><strong>Ingestion:</strong> Apache Kafka (Amazon MSK) captures events from the web
+                                servers.</li>
+                            <li><strong>Processing:</strong> Apache Spark Streaming (on EMR) consumes topics, performs
+                                aggregations, and enriches data with user profiles.</li>
+                            <li><strong>Storage:</strong> Processed data is written to a Data Lake (S3) in Parquet
+                                format for historical analysis and to Redshift for real-time dashboards.</li>
+                            </ul>
                     </div>
                 </div>
             </div>
