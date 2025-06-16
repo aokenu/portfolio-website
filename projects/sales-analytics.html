@@ -74,6 +74,21 @@
                             rows. Dynamic parameters allow users to switch between currency views.</p>
                         
                         <div class="code-snippet">
+                            <pre>
+-- Sample DAX Measure for YoY Growth
+Sales YoY Growth % = 
+VAR CurrentSales = [Total Sales]
+VAR PreviousYearSales = CALCULATE(
+    [Total Sales], 
+    SAMEPERIODLASTYEAR('Date'[Date])
+)
+RETURN
+    DIVIDE(
+        CurrentSales - PreviousYearSales,
+        PreviousYearSales,
+        0
+    )
+</pre>
                     </div>
                 </div>
             </div>
