@@ -6,4 +6,6 @@
     --primary: #00f2ea;
     --secondary: #0070f3;
     --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
+    --glass: rgba(255, 255, 255, 0.05);
+    
 }
