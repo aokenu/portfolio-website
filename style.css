@@ -5,4 +5,5 @@
     --text-muted: #a0a0a0;
     --primary: #00f2ea;
     --secondary: #0070f3;
+    --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
 }
