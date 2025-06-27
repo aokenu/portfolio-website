@@ -8,4 +8,7 @@
     --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
     --glass: rgba(255, 255, 255, 0.05);
     --border: rgba(255, 255, 255, 0.1);
+
+    --container-width: 1200px;
+    
 }
