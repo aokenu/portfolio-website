@@ -28,4 +28,5 @@ body {
     background-color: var(--bg-color);
     color: var(--text-main);
     line-height: 1.6;
+    overflow-x: hidden;
 }
