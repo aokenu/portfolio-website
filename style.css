@@ -40,4 +40,5 @@ h5,
 h6 {
     font-family: 'Space Grotesk', sans-serif;
     color: var(--text-main);
+    line-height: 1.2;
 }
