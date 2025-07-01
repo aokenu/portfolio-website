@@ -42,3 +42,6 @@ h6 {
     color: var(--text-main);
     line-height: 1.2;
 }
+
+h1 {
+    font-size: 3.5rem;
