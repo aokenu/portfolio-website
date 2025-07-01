@@ -55,5 +55,5 @@ h2 {
 }
 
 p {
-    
+    color: var(--text-muted);
 }
