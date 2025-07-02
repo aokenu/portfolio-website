@@ -57,4 +57,5 @@ h2 {
 p {
     color: var(--text-muted);
     font-size: 1.1rem;
+    margin-bottom: 1.5rem;
 }
