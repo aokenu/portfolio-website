@@ -86,5 +86,5 @@ ul {
 }
 
 .gradient-text {
-    
+    background: var(--gradient);
 }
