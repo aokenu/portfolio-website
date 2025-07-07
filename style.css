@@ -104,4 +104,5 @@ ul {
 .btn-primary {
     background: var(--gradient);
     color: #000;
+    border: none;
 }
