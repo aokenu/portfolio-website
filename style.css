@@ -102,5 +102,5 @@ ul {
 }
 
 .btn-primary {
-    
+    background: var(--gradient);
 }
