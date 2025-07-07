@@ -95,4 +95,5 @@ ul {
 /* Buttons */
 .btn {
     display: inline-block;
+    padding: 0.8rem 2rem;
 }
