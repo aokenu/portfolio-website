@@ -94,5 +94,5 @@ ul {
 
 /* Buttons */
 .btn {
-    
+    display: inline-block;
 }
