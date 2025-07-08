@@ -105,4 +105,5 @@ ul {
     background: var(--gradient);
     color: #000;
     border: none;
+    box-shadow: 0 4px 15px rgba(0, 242, 234, 0.3);
 }
