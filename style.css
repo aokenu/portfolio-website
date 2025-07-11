@@ -117,4 +117,5 @@ ul {
     background: transparent;
     border: 1px solid var(--border);
     color: var(--text-main);
+    margin-left: 1rem;
 }
