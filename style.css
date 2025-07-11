@@ -119,3 +119,7 @@ ul {
     color: var(--text-main);
     margin-left: 1rem;
 }
+
+.btn-outline:hover {
+    
+}
