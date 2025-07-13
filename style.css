@@ -129,4 +129,5 @@ ul {
     padding: 0.5rem 1.2rem;
     border-radius: 5px;
     background: var(--glass);
+    border: 1px solid var(--border);
 }
