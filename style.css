@@ -131,4 +131,5 @@ ul {
     background: var(--glass);
     border: 1px solid var(--border);
     font-size: 0.9rem;
+    display: inline-flex;
 }
