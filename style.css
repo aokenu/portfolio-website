@@ -132,4 +132,5 @@ ul {
     border: 1px solid var(--border);
     font-size: 0.9rem;
     display: inline-flex;
+    align-items: center;
 }
