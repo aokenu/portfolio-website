@@ -146,4 +146,5 @@ ul {
     top: 0;
     width: 100%;
     height: var(--header-height);
+    background: rgba(5, 5, 5, 0.8);
 }
