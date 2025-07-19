@@ -149,4 +149,5 @@ ul {
     background: rgba(5, 5, 5, 0.8);
     backdrop-filter: blur(10px);
     z-index: 1000;
+    border-bottom: 1px solid var(--border);
 }
