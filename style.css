@@ -151,4 +151,5 @@ ul {
     z-index: 1000;
     border-bottom: 1px solid var(--border);
     display: flex;
+    align-items: center;
 }
