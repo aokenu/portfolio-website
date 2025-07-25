@@ -172,5 +172,5 @@ ul {
 }
 
 .nav-links {
-    
+    display: flex;
 }
