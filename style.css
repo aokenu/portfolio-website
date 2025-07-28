@@ -181,4 +181,5 @@ ul {
     font-size: 1rem;
     font-weight: 400;
     position: relative;
+    color: var(--text-muted);
 }
