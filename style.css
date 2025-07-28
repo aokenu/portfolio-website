@@ -180,4 +180,5 @@ ul {
 .nav-link {
     font-size: 1rem;
     font-weight: 400;
+    position: relative;
 }
