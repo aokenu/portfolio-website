@@ -183,3 +183,8 @@ ul {
     position: relative;
     color: var(--text-muted);
 }
+
+.nav-link:hover,
+.nav-link.active {
+    
+}
