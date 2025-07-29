@@ -866,6 +866,6 @@ ul {
 
 @media (max-width: 968px) {
     .project-details-container {
-        
+        grid-template-columns: 1fr;
     }
 }
