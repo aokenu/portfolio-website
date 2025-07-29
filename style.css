@@ -868,4 +868,8 @@ ul {
     .project-details-container {
         grid-template-columns: 1fr;
     }
+
+    .sidebar-card {
+        
+    }
 }
