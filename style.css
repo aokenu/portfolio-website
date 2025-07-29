@@ -870,6 +870,6 @@ ul {
     }
 
     .sidebar-card {
-        
+        position: static;
     }
 }
