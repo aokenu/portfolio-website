@@ -861,4 +861,5 @@ ul {
 .result-card p {
     margin: 0;
     font-size: 0.9rem;
+    color: var(--text-muted);
 }
