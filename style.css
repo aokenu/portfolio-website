@@ -865,5 +865,7 @@ ul {
 }
 
 @media (max-width: 968px) {
-    
+    .project-details-container {
+        
+    }
 }
