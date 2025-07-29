@@ -871,5 +871,6 @@ ul {
 
     .sidebar-card {
         position: static;
+        margin-bottom: 3rem;
     }
 }
