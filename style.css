@@ -190,5 +190,5 @@ ul {
 }
 
 .nav-link::after {
-    
+    content: '';
 }
