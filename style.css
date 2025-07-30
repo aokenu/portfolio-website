@@ -193,4 +193,5 @@ ul {
     content: '';
     position: absolute;
     bottom: -5px;
+    left: 0;
 }
