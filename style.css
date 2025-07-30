@@ -192,4 +192,5 @@ ul {
 .nav-link::after {
     content: '';
     position: absolute;
+    bottom: -5px;
 }
