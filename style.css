@@ -188,3 +188,7 @@ ul {
 .nav-link.active {
     color: var(--text-main);
 }
+
+.nav-link::after {
+    
+}
