@@ -199,3 +199,5 @@ ul {
     background: var(--gradient);
     transition: width 0.3s ease;
 }
+
+.nav-link:hover::after,
