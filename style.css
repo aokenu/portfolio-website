@@ -217,4 +217,5 @@ ul {
     display: flex;
     align-items: center;
     padding-top: var(--header-height);
+    position: relative;
 }
