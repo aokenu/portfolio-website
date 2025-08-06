@@ -218,4 +218,5 @@ ul {
     align-items: center;
     padding-top: var(--header-height);
     position: relative;
+    overflow: hidden;
 }
