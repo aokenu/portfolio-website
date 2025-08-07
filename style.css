@@ -224,5 +224,5 @@ ul {
 /* Background Glow Effect */
 .background-glow {
     position: absolute;
-    
+    top: -20%;
 }
