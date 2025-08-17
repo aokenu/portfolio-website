@@ -234,5 +234,5 @@ ul {
 }
 
 .hero-container {
-    
+    display: grid;
 }
