@@ -244,4 +244,5 @@ ul {
     display: inline-block;
     padding: 0.5rem 1rem;
     background: rgba(0, 242, 234, 0.1);
+    color: var(--primary);
 }
