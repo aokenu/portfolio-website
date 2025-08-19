@@ -246,4 +246,5 @@ ul {
     background: rgba(0, 242, 234, 0.1);
     color: var(--primary);
     border-radius: 50px;
+    font-size: 0.9rem;
 }
