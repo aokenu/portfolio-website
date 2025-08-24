@@ -253,7 +253,7 @@ ul {
 }
 
 .hero-description {
-    
+    max-width: 500px;
 }
 
 
