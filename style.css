@@ -260,6 +260,7 @@ ul {
 .social-links {
     margin-top: 2.5rem;
     display: flex;
+    gap: 1.5rem;
 }
 
 
