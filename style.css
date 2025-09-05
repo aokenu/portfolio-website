@@ -280,6 +280,7 @@ ul {
     background: var(--gradient);
     color: #000;
     border-color: transparent;
+    transform: translateY(-3px);
 }
 
 
