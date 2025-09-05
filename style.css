@@ -277,7 +277,7 @@ ul {
 }
 
 .social-links a:hover {
-    
+    background: var(--gradient);
 }
 
 
