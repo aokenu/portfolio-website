@@ -278,6 +278,7 @@ ul {
 
 .social-links a:hover {
     background: var(--gradient);
+    color: #000;
 }
 
 
