@@ -266,6 +266,7 @@ ul {
 .social-links a {
     width: 45px;
     height: 45px;
+    border-radius: 50%;
 }
 
 
