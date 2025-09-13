@@ -286,6 +286,7 @@ ul {
 /* Hero Image */
 .hero-image-wrapper {
     position: relative;
+    display: flex;
 }
 
 
