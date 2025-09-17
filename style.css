@@ -294,6 +294,7 @@ ul {
 .image-container {
     width: 380px;
     height: 380px;
+    border-radius: 50%;
 }
 
 
