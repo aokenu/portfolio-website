@@ -298,6 +298,7 @@ ul {
     overflow: hidden;
     border: 2px solid var(--border);
     position: relative;
+    z-index: 2;
 }
 
 
