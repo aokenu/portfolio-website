@@ -314,6 +314,7 @@ ul {
     height: 450px;
     background: var(--gradient);
     border-radius: 50%;
+    filter: blur(80px);
 }
 
 
