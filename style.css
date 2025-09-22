@@ -313,6 +313,7 @@ ul {
     width: 450px;
     height: 450px;
     background: var(--gradient);
+    border-radius: 50%;
 }
 
 
