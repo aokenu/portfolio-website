@@ -317,6 +317,7 @@ ul {
     filter: blur(80px);
     opacity: 0.2;
     z-index: 1;
+    animation: blob-pulse 8s infinite alternate;
 }
 
 
