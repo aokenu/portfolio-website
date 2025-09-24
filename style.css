@@ -315,6 +315,7 @@ ul {
     background: var(--gradient);
     border-radius: 50%;
     filter: blur(80px);
+    opacity: 0.2;
 }
 
 
