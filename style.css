@@ -320,6 +320,9 @@ ul {
     animation: blob-pulse 8s infinite alternate;
 }
 
+@keyframes blob-pulse {
+    
+}
 
 
 
