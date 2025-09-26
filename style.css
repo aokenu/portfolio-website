@@ -332,6 +332,7 @@ ul {
 
 .floating-card {
     position: absolute;
+    background: rgba(18, 18, 18, 0.8);
 }
 
 
