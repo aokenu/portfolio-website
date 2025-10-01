@@ -361,7 +361,9 @@ ul {
     animation-delay: 0s;
 }
 
-
+.floating-card.c2 {
+    bottom: 15%;
+}
 
 
 
