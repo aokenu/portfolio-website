@@ -393,4 +393,5 @@ ul {
     letter-spacing: 2px;
     font-size: 0.8rem;
     color: var(--primary);
+    font-weight: 600;
 }
