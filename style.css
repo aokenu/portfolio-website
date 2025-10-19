@@ -402,4 +402,5 @@ ul {
 .about-stats {
     display: flex;
     gap: 3rem;
+    margin-top: 2rem;
 }
