@@ -400,5 +400,5 @@ ul {
 
 /* About Section */
 .about-stats {
-    
+    display: flex;
 }
