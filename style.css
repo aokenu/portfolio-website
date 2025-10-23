@@ -422,5 +422,5 @@ ul {
 
 /* Skills Grid */
 .skills-grid {
-    
+    display: grid;
 }
