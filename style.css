@@ -428,5 +428,5 @@ ul {
 }
 
 .skill-card {
-    
+    background: var(--card-bg);
 }
