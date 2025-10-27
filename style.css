@@ -436,5 +436,5 @@ ul {
 }
 
 .skill-card:hover {
-    
+    border-color: var(--primary);
 }
