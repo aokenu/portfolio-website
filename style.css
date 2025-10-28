@@ -442,4 +442,5 @@ ul {
 
 .skill-icon {
     font-size: 2.5rem;
+    color: var(--primary);
 }
