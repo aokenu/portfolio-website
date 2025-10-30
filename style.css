@@ -458,5 +458,5 @@ ul {
 
 /* Projects Grid */
 .projects-grid {
-    
+    display: grid;
 }
