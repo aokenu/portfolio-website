@@ -467,4 +467,5 @@ ul {
     background: var(--card-bg);
     border-radius: 20px;
     border: 1px solid var(--border);
+    overflow: hidden;
 }
