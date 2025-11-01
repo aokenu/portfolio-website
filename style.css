@@ -469,4 +469,5 @@ ul {
     border: 1px solid var(--border);
     overflow: hidden;
     transition: all 0.3s ease;
+    display: flex;
 }
