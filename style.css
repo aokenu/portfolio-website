@@ -486,4 +486,5 @@ ul {
 .project-category {
     font-size: 0.8rem;
     color: var(--primary);
+    text-transform: uppercase;
 }
