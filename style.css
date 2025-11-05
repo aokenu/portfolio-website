@@ -488,4 +488,5 @@ ul {
     color: var(--primary);
     text-transform: uppercase;
     letter-spacing: 1px;
+    margin-bottom: 0.8rem;
 }
