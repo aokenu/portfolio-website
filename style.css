@@ -501,4 +501,5 @@ ul {
 .project-tech {
     display: flex;
     flex-wrap: wrap;
+    gap: 0.8rem;
 }
