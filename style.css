@@ -500,4 +500,5 @@ ul {
 
 .project-tech {
     display: flex;
+    flex-wrap: wrap;
 }
