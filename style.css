@@ -502,4 +502,5 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 0.8rem;
+    margin-bottom: 1.5rem;
 }
