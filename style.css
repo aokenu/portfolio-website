@@ -509,4 +509,5 @@ ul {
     font-size: 0.8rem;
     padding: 0.3rem 0.8rem;
     background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
 }
