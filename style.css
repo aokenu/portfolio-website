@@ -515,5 +515,5 @@ ul {
 
 /* Contact */
 .contact-container {
-    
+    display: grid;
 }
