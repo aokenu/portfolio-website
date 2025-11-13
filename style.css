@@ -522,4 +522,5 @@ ul {
 
 .contact-methods {
     margin-top: 3rem;
+    display: grid;
 }
