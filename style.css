@@ -528,4 +528,5 @@ ul {
 
 .method {
     display: flex;
+    align-items: center;
 }
