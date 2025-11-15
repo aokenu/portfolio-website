@@ -535,4 +535,5 @@ ul {
 .method i {
     font-size: 1.5rem;
     color: var(--primary);
+    width: 50px;
 }
