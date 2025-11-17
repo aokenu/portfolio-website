@@ -540,4 +540,5 @@ ul {
     background: rgba(0, 242, 234, 0.1);
     border-radius: 50%;
     display: flex;
+    align-items: center;
 }
