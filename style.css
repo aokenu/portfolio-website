@@ -555,5 +555,5 @@ ul {
 }
 
 .method a:hover {
-    
+    color: var(--primary);
 }
