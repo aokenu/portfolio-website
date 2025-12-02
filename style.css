@@ -550,5 +550,5 @@ ul {
 }
 
 .method a {
-    
+    color: var(--text-muted);
 }
