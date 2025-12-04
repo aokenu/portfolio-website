@@ -570,5 +570,5 @@ ul {
 }
 
 .form-group label {
-    
+    display: block;
 }
