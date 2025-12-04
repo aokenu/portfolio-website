@@ -562,4 +562,5 @@ ul {
     background: var(--card-bg);
     padding: 2.5rem;
     border-radius: 20px;
+    border: 1px solid var(--border);
 }
