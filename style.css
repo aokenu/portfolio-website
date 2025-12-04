@@ -561,4 +561,5 @@ ul {
 .contact-form {
     background: var(--card-bg);
     padding: 2.5rem;
+    border-radius: 20px;
 }
