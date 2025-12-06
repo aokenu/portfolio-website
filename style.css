@@ -579,4 +579,5 @@ ul {
 .form-group input,
 .form-group textarea {
     width: 100%;
+    padding: 1rem;
 }
