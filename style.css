@@ -583,4 +583,5 @@ ul {
     background: rgba(0, 0, 0, 0.3);
     border: 1px solid var(--border);
     border-radius: 10px;
+    color: var(--text-main);
 }
