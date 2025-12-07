@@ -581,4 +581,5 @@ ul {
     width: 100%;
     padding: 1rem;
     background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border);
 }
