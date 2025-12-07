@@ -580,4 +580,5 @@ ul {
 .form-group textarea {
     width: 100%;
     padding: 1rem;
+    background: rgba(0, 0, 0, 0.3);
 }
