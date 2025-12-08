@@ -586,4 +586,5 @@ ul {
     color: var(--text-main);
     font-family: inherit;
     font-size: 1rem;
+    outline: none;
 }
