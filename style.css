@@ -591,3 +591,6 @@ ul {
 }
 
 .form-group input:focus,
+.form-group textarea:focus {
+    
+}
