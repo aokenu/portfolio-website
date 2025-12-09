@@ -593,4 +593,5 @@ ul {
 .form-group input:focus,
 .form-group textarea:focus {
     border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(0, 242, 234, 0.1);
 }
