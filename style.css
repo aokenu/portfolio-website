@@ -604,4 +604,5 @@ ul {
     margin-top: 1rem;
     font-size: 0.95rem;
     text-align: center;
+    min-height: 1.5rem;
 }
