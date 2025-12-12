@@ -607,4 +607,5 @@ ul {
     min-height: 1.5rem;
     font-weight: 500;
     opacity: 0;
+    transform: translateY(10px);
 }
