@@ -612,5 +612,5 @@ ul {
 }
 
 .form-status.visible {
-    
+    opacity: 1;
 }
