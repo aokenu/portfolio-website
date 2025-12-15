@@ -615,3 +615,7 @@ ul {
     opacity: 1;
     transform: translateY(0);
 }
+
+.form-status.success {
+    
+}
