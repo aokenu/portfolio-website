@@ -617,5 +617,5 @@ ul {
 }
 
 .form-status.success {
-    
+    color: var(--primary);
 }
