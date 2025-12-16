@@ -628,4 +628,5 @@ ul {
 .footer {
     padding: 2rem 0;
     border-top: 1px solid var(--border);
+    background: #050505;
 }
