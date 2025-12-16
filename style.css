@@ -632,5 +632,5 @@ ul {
 }
 
 .footer-content {
-    
+    display: flex;
 }
