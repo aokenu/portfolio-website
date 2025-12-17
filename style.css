@@ -643,5 +643,5 @@ ul {
 }
 
 .footer-links {
-    
+    display: flex;
 }
