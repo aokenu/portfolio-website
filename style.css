@@ -649,4 +649,5 @@ ul {
 
 .footer-links a {
     color: var(--text-muted);
+    font-size: 1.2rem;
 }
