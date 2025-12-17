@@ -648,5 +648,5 @@ ul {
 }
 
 .footer-links a {
-    
+    color: var(--text-muted);
 }
