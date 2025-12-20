@@ -659,6 +659,6 @@ ul {
 /* Mobile Responsive */
 @media (max-width: 968px) {
     .hero-container {
-        
+        grid-template-columns: 1fr;
     }
 }
