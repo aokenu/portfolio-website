@@ -669,6 +669,6 @@ ul {
     }
 
     .social-links {
-        
+        justify-content: center;
     }
 }
