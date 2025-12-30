@@ -681,6 +681,6 @@ ul {
     }
 
     .about-stats {
-        
+        justify-content: center;
     }
 }
