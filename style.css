@@ -695,6 +695,6 @@ ul {
     }
 
     .nav-links {
-        
+        position: fixed;
     }
 }
