@@ -698,5 +698,6 @@ ul {
         position: fixed;
         top: var(--header-height);
         left: 0;
+        width: 100%;
     }
 }
