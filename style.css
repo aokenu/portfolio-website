@@ -696,5 +696,6 @@ ul {
 
     .nav-links {
         position: fixed;
+        top: var(--header-height);
     }
 }
