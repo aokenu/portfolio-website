@@ -699,5 +699,6 @@ ul {
         top: var(--header-height);
         left: 0;
         width: 100%;
+        background: var(--bg-color);
     }
 }
