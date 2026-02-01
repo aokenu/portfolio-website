@@ -704,5 +704,6 @@ ul {
         padding: 2rem;
         border-bottom: 1px solid var(--border);
         transform: translateY(-150%);
+        transition: transform 0.3s ease;
     }
 }
