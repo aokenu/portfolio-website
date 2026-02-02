@@ -708,6 +708,6 @@ ul {
     }
 
     .nav-links.active {
-        
+        transform: translateY(0);
     }
 }
