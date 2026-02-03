@@ -731,4 +731,5 @@ ul {
     padding-top: calc(var(--header-height) + 4rem);
     padding-bottom: 4rem;
     text-align: center;
+    background: radial-gradient(circle at center, rgba(0, 242, 234, 0.05) 0%, rgba(5, 5, 5, 0) 70%);
 }
