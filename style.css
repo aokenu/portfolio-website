@@ -728,5 +728,5 @@ ul {
 
 /* Project Detail Pages */
 .project-header {
-    
+    padding-top: calc(var(--header-height) + 4rem);
 }
