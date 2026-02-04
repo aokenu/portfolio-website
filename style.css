@@ -739,4 +739,5 @@ ul {
     justify-content: center;
     gap: 2rem;
     margin-bottom: 2rem;
+    color: var(--text-muted);
 }
