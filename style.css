@@ -736,4 +736,5 @@ ul {
 
 .project-meta {
     display: flex;
+    justify-content: center;
 }
