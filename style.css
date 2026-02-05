@@ -743,5 +743,5 @@ ul {
 }
 
 .meta-item {
-    
+    display: flex;
 }
