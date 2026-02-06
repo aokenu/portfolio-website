@@ -749,5 +749,5 @@ ul {
 }
 
 .meta-item i {
-    
+    color: var(--primary);
 }
