@@ -758,4 +758,5 @@ ul {
     object-fit: cover;
     border-radius: 20px;
     border: 1px solid var(--border);
+    margin-bottom: 4rem;
 }
