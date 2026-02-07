@@ -757,4 +757,5 @@ ul {
     max-height: 500px;
     object-fit: cover;
     border-radius: 20px;
+    border: 1px solid var(--border);
 }
