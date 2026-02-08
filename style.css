@@ -763,5 +763,5 @@ ul {
 }
 
 .project-details-container {
-    
+    display: grid;
 }
