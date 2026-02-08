@@ -766,4 +766,5 @@ ul {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 4rem;
+    margin-bottom: 6rem;
 }
