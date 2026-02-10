@@ -778,4 +778,5 @@ ul {
     margin-bottom: 1.5rem;
     color: var(--text-main);
     border-left: 4px solid var(--primary);
+    padding-left: 1rem;
 }
