@@ -782,5 +782,5 @@ ul {
 }
 
 .tech-stack-list {
-    
+    display: flex;
 }
