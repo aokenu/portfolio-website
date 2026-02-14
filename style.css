@@ -797,5 +797,5 @@ ul {
 }
 
 .sidebar-card {
-    
+    background: var(--card-bg);
 }
