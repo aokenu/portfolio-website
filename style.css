@@ -793,4 +793,5 @@ ul {
     border: 1px solid var(--border);
     border-radius: 5px;
     font-size: 0.9rem;
+    color: var(--text-main);
 }
