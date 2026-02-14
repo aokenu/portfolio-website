@@ -792,4 +792,5 @@ ul {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid var(--border);
     border-radius: 5px;
+    font-size: 0.9rem;
 }
