@@ -800,4 +800,5 @@ ul {
     background: var(--card-bg);
     padding: 2rem;
     border-radius: 15px;
+    border: 1px solid var(--border);
 }
