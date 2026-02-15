@@ -802,4 +802,5 @@ ul {
     border-radius: 15px;
     border: 1px solid var(--border);
     position: sticky;
+    top: calc(var(--header-height) + 2rem);
 }
