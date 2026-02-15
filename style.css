@@ -801,4 +801,5 @@ ul {
     padding: 2rem;
     border-radius: 15px;
     border: 1px solid var(--border);
+    position: sticky;
 }
