@@ -799,4 +799,5 @@ ul {
 .sidebar-card {
     background: var(--card-bg);
     padding: 2rem;
+    border-radius: 15px;
 }
