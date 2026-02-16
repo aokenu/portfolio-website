@@ -810,5 +810,5 @@ ul {
 }
 
 .sidebar-item h4 {
-    
+    color: var(--primary);
 }
