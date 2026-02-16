@@ -804,3 +804,7 @@ ul {
     position: sticky;
     top: calc(var(--header-height) + 2rem);
 }
+
+.sidebar-item {
+    
+}
