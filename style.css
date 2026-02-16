@@ -812,4 +812,5 @@ ul {
 .sidebar-item h4 {
     color: var(--primary);
     margin-bottom: 0.5rem;
+    font-size: 1rem;
 }
