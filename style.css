@@ -830,4 +830,5 @@ ul {
     padding: 1.5rem;
     border-radius: 10px;
     border: 1px solid var(--border);
+    overflow-x: auto;
 }
