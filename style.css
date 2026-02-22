@@ -838,5 +838,5 @@ ul {
 }
 
 .results-grid {
-    
+    display: grid;
 }
