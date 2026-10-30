@@ -1,0 +1,9 @@
+{
+  // Cloudflare Workers config: serves the public/ folder as a static site (no build step).
+  // "name" must match the project name in the Cloudflare dashboard.
+  "name": "portfolio-website",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public"
+  }
+}
