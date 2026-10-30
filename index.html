@@ -4,8 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Austine Okenu | Analytic & Data Engineer</title>
-    <meta name="description" content="Portfolio of Austine Okenu, a professional Analytic and Data Engineer.">
+    <title>Austine | Data & Analytics Engineer</title>
+    <meta name="description"
+        content="Portfolio of Austine, a Data & Analytics Engineer who builds data pipelines, data warehouses and BI dashboards with Python, SQL, dbt, Airflow, Snowflake and Power BI.">
+
+    <link rel="canonical" href="https://databyaustine.dev/">
+
+    <!-- Social sharing previews -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://databyaustine.dev/">
+    <meta property="og:title" content="Austine | Data & Analytics Engineer">
+    <meta property="og:description"
+        content="Data pipelines, data warehouses and BI dashboards that turn raw data into decisions.">
+    <meta property="og:image" content="https://databyaustine.dev/assets/images/real-time-pipeline.png">
+    <meta name="twitter:card" content="summary_large_image">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,19 +29,8 @@
     <!-- Icons -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="style.css">
-
-    <!-- EmailJS SDK -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            // Initialize EmailJS with your Public Key
-            // Get it from https://dashboard.emailjs.com/admin/account
-            emailjs.init({
-                publicKey: "mqaYcPc94DtNa5A5B",
-            });
-        })();
-    </script>
 </head>
 
 <body>
@@ -37,19 +38,17 @@
 
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">AO<span class="dot">.</span></a>
+            <a href="#" class="logo">Austine<span class="dot">.</span></a>
             <div class="nav-links">
                 <a href="#home" class="nav-link active">Home</a>
-                <a href="#about" class="nav-link">About</a>
+                <a href="#focus" class="nav-link">Expertise</a>
                 <a href="#skills" class="nav-link">Skills</a>
                 <a href="#projects" class="nav-link">Projects</a>
-                <a href="#contact" class="nav-link btn-featured">Contact Me</a>
             </div>
-            <div class="menu-toggle" id="mobile-menu">
+            <div class="menu-toggle" id="mobile-menu" role="button" aria-label="Toggle menu" tabindex="0">
                 <i class='bx bx-menu'></i>
             </div>
         </div>
-        
     </nav>
 
     <main>
@@ -57,29 +56,58 @@
         <section id="home" class="hero">
             <div class="container hero-container">
                 <div class="hero-content">
-                    <div class="badge">Analytic & Data Engineer</div>
+                    <div class="badge">Data & Analytics Engineer</div>
                     <h1>Transforming Data into <span class="gradient-text">Actionable Insights</span></h1>
                     <p class="hero-description">
-                        Hi, I'm <strong>Austine Okenu</strong>. I build robust data pipelines, architect scalable data
-                        solutions, and turn complex datasets into clear business value.
+                        Hi, I'm <strong>Austine</strong>, an Analytics and Data Engineer who genuinely loves working
+                        with data, from the pipelines that move it to the stories it tells. I'm fascinated by how
+                        the modern data stack keeps evolving, and I enjoy exploring new tools and ideas along the way.
                     </p>
+                    <p class="hero-description">
+                        This is where I share projects I've built, lessons I've learned and what excites me about
+                        data engineering. I'm always happy to swap ideas with others in the data and tech community.
+                    </p>
+                    <ul class="about-stats">
+                        <li>
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Exp.</span>
+                        </li>
+                        <li>
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">Projects</span>
+                        </li>
+                        <li>
+                            <span class="stat-number">13</span>
+                            <span class="stat-label">Collaborations</span>
+                        </li>
+                    </ul>
                     <div class="hero-btns">
                         <a href="#projects" class="btn btn-primary">View My Work</a>
                         <a href="#contact" class="btn btn-outline">Let's Talk</a>
                     </div>
                     <div class="social-links">
-                        <a href="https://github.com/aokenu" target="_blank" aria-label="GitHub"><i
-                            class='bx bxl-github'></i></a>
-                        <a href="https://www.linkedin.com/in/austine-okenu-697431b0/" target="_blank"
-                            aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
-                        <a href="mailto:austineokenu@gmail.com" aria-label="Email"><i class='bx bx-envelope'></i></a>  
-                    </div>
+                        <a href="https://github.com/aokenu" target="_blank" rel="noopener" aria-label="GitHub"><i
+                                class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/austine-okenu-697431b0/" target="_blank" rel="noopener"
+                            aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>                    </div>
                 </div>
 
                 <div class="hero-image-wrapper">
                     <div class="image-blob"></div>
-                    <div class="image-container">
-                        <img src="assets/images/profile.jpg" alt="Austine Okenu" class="hero-img">
+                    <div class="stack-card">
+                        <div class="stack-card-header">
+                            <span class="window-dots"><i></i><i></i><i></i></span>
+                            <span>modern_data_stack.yml</span>
+                        </div>
+                        <ul class="stack-list">
+                            <li><i class='bx bx-import'></i><span>Ingest</span><em>Python · Fabric · Kafka</em></li>
+                            <li><i class='bx bx-transfer-alt'></i><span>Transform</span><em>SQL · dbt · Spark</em></li>
+                            <li><i class='bx bx-data'></i><span>Store</span><em>Snowflake · Redshift · PostgreSQL</em>
+                            </li>
+                            <li><i class='bx bx-git-branch'></i><span>Orchestrate</span><em>Airflow · Docker</em></li>
+                            <li><i class='bx bx-bar-chart-alt-2'></i><span>Visualize</span><em>Power BI · Tableau · Grafana</em>
+                            </li>
+                        </ul>
                     </div>
                     <div class="floating-card c1">
                         <i class='bx bx-data'></i>
@@ -89,76 +117,95 @@
                         <i class='bx bx-line-chart'></i>
                         <span>Analytics</span>
                     </div>
-                </div>   
+                </div>
             </div>
         </section>
 
-        <!-- About Section -->
-        <section id="about" class="section">
-            <div class="container about-container">
-                <div class="section-header">
-                    <span class="subtitle">About Me</span>
-                    <h2>Engineering Data Reliability</h2>
+        <!-- Core Competencies Section -->
+        <section id="focus" class="section bg-card">
+            <div class="container">
+                <div class="section-header center">
+                    <h2>Data Specialty</h2>
                 </div>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>
-                            As an experienced <strong>Analytic and Data Engineer</strong>, I specialize in the modern
-                            data stack. My passion lies in designing and implementing efficient ETL/ELT processes,
-                            ensuring data quality, and optimizing data warehouses for performance.
-                        </p>
-                        <p>
-                            I bridge the gap between raw data and decision-making, helping organizations leverage their
-                            assets to drive growth. Whether it's batch processing or real-time streaming, I build
-                            systems that scale.
-                        </p>
-                        <ul class="about-stats">
-                            <li>
-                                <span class="stat-number">5+</span>
-                                <span class="stat-label">Years Exp.</span>
-                            </li>
-                            <li>
-                                <span class="stat-number">30+</span>
-                                <span class="stat-label">Projects</span>
-                            </li>
-                            <li>
-                                <span class="stat-number">100%</span>
-                                <span class="stat-label">Commitment</span>
-                            </li>
-                        </ul>
+                <div class="skills-grid two-col">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class='bx bx-git-merge'></i></div>
+                        <h3>Data Pipelines & ETL/ELT</h3>
+                        <p>Experience building automated batch and real-time pipelines that consolidate data from
+                            applications, APIs and databases, with monitoring and alerting.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class='bx bx-server'></i></div>
+                        <h3>Data Warehousing & Modeling</h3>
+                        <p>Designing star-schema warehouses in Snowflake, Redshift and PostgreSQL, modeled and tested
+                            with dbt for a single, consistent source of truth.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class='bx bx-bar-chart-alt-2'></i></div>
+                        <h3>BI & Reporting</h3>
+                        <p>Developing interactive Power BI and Tableau dashboards with clear KPIs,
+                            drill-downs and row-level security.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class='bx bx-tachometer'></i></div>
+                        <h3>Performance & Reliability</h3>
+                        <p>Orchestrating workflows with Airflow, tuning query performance and optimizing warehouse
+                            costs.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class='bx bx-group'></i></div>
+                        <h3>Training & Mentorship</h3>
+                        <p>Mentoring aspiring data professionals and running training sessions on SQL, Power BI and
+                            data engineering best practices.</p>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Skills Section -->
-        <section id="skills" class="section bg-card">
+        <section id="skills" class="section">
             <div class="container">
                 <div class="section-header center">
-                    <span class="subtitle">My Arsenal</span>
-                    <h2>Technical Expertise</h2>
+                    <span class="subtitle">Tech Stack</span>
+                    <h2>Tools &amp; Technologies</h2>
                 </div>
                 <div class="skills-grid">
                     <div class="skill-card">
-                        <div class="skill-icon"><i class='bx bx-bar-chart-alt-2'></i></div>
-                        <h3>Data Visualization</h3>
-                        <p>Power BI, Tableau, Metabase, Looker, Grafana</p>
-                    </div>
-                    <div class="skill-card">
                         <div class="skill-icon"><i class='bx bxl-python'></i></div>
                         <h3>Languages</h3>
-                        <p>Python, SQL, Bash Scripting</p>
+                        <p>Python, PySpark, SQL, KQL, DAX, Bash Scripting</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class='bx bx-git-branch'></i></div>
+                        <h3>Data Engineering</h3>
+                        <p>Microsoft Fabric, SSIS, Notebooks, Apache Airflow, dbt, Apache Spark, Apache Kafka</p>
                     </div>
                     <div class="skill-card">
                         <div class="skill-icon"><i class='bx bxl-postgresql'></i></div>
-                        <h3>Databases</h3>
-                        <p>PostgreSQL, MySQL, Microsoft SQL, IBM DB2</p>
+                        <h3>Databases & Warehouses</h3>
+                        <p>Snowflake, Amazon Redshift, PostgreSQL, MySQL, Microsoft SQL Server</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class='bx bx-cloud'></i></div>
+                        <h3>Cloud & DevOps</h3>
+                        <p>Azure, AWS, Azure DevOps, Docker, Git, VS Code</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class='bx bx-bar-chart-alt-2'></i></div>
+                        <h3>Data Visualization</h3>
+                        <p>Power BI, Tableau, Metabase, Grafana</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class='bx bx-bot'></i></div>
+                        <h3>AI Tools</h3>
+                        <p>Claude, OpenAI Codex, Copilot</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Projects Section -->
-        <section id="projects" class="section">
+        <section id="projects" class="section bg-card">
             <div class="container">
                 <div class="section-header">
                     <span class="subtitle">Portfolio</span>
@@ -180,7 +227,7 @@
                             <div class="project-links">
                                 <a href="projects/real-time-stream.html" class="btn-sm"><i class='bx bx-show'></i>
                                     Details</a>
-                                <a href="https://github.com/aokenu" target="_blank" class="btn-sm"><i
+                                <a href="https://github.com/aokenu" target="_blank" rel="noopener" class="btn-sm"><i
                                         class='bx bxl-github'></i> Code</a>
                             </div>
                         </div>
@@ -201,7 +248,7 @@
                             <div class="project-links">
                                 <a href="projects/ecommerce-dwh.html" class="btn-sm"><i class='bx bx-show'></i>
                                     Details</a>
-                                <a href="https://github.com/aokenu" target="_blank" class="btn-sm"><i
+                                <a href="https://github.com/aokenu" target="_blank" rel="noopener" class="btn-sm"><i
                                         class='bx bxl-github'></i> Code</a>
                             </div>
                         </div>
@@ -222,7 +269,7 @@
                             <div class="project-links">
                                 <a href="projects/etl-framework.html" class="btn-sm"><i class='bx bx-show'></i>
                                     Details</a>
-                                <a href="https://github.com/aokenu" target="_blank" class="btn-sm"><i
+                                <a href="https://github.com/aokenu" target="_blank" rel="noopener" class="btn-sm"><i
                                         class='bx bxl-github'></i> Code</a>
                             </div>
                         </div>
@@ -239,10 +286,11 @@
                                 <span>Power BI</span>
                                 <span>SQL</span>
                                 <span>DAX</span>
-                            </div><div class="project-links">
+                            </div>
+                            <div class="project-links">
                                 <a href="projects/sales-analytics.html" class="btn-sm"><i class='bx bx-show'></i>
                                     Details</a>
-                                <a href="https://github.com/aokenu" target="_blank" class="btn-sm"><i
+                                <a href="https://github.com/aokenu" target="_blank" rel="noopener" class="btn-sm"><i
                                         class='bx bxl-github'></i> Code</a>
                             </div>
                         </div>
@@ -252,60 +300,35 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="section bg-card">
+        <section id="contact" class="section">
             <div class="container contact-container">
                 <div class="contact-info">
                     <div class="section-header">
                         <span class="subtitle">Get In Touch</span>
-                        <h2>Let's work together</h2>
+                        <h2>Let's connect</h2>
                     </div>
                     <p>
-                        I'm currently opening to new opportunities and collaborations. Whether you have a question or
-                        just want to say hi, I'll try my best to get back to you!
+                        I'm always happy to talk data engineering, analytics and the modern data stack. Whether you
+                        have a question about my work or just want to say hi, connect with me on LinkedIn or explore
+                        my work on GitHub.
                     </p>
-                    <div class="contact-methods">
-                        <div class="method">
-                            <i class='bx bx-envelope'></i>
-                            <div>
-                                <h4>Email</h4>
-                                <a href="mailto:austineokenu@gmail.com">austineokenu@gmail.com</a>
-                            </div>
-                        </div>
-                        <div class="method">
-                            <i class='bx bxl-linkedin'></i>
-                            <div>
-                                <h4>LinkedIn</h4>
-                                <a href="https://www.linkedin.com/in/austine-okenu-697431b0/" target="_blank">View
-                                    Profile</a>
-                            </div>
-                        </div>
-                        <div class="method">
-                            <i class='bx bxl-github'></i>
-                            <div>
-                                <h4>GitHub</h4>
-                                <a href="https://github.com/aokenu" target="_blank">github.com/aokenu</a>
-                            </div>
+                </div>
+                <div class="contact-methods">
+                    <div class="method">
+                        <i class='bx bxl-linkedin'></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/austine-okenu-697431b0/" target="_blank"
+                                rel="noopener">View Profile</a>
                         </div>
                     </div>
-                </div>
-                <div class="contact-form-wrapper">
-                    <form class="contact-form" id="contact-form">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                    <div class="method">
+                        <i class='bx bxl-github'></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/aokenu" target="_blank" rel="noopener">github.com/aokenu</a>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required placeholder="your@email.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required
-                                placeholder="Hello Austine..."></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary full-width">Send Message</button>
-                        <div class="form-status" id="form-status"></div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -314,11 +337,12 @@
 
     <footer class="footer">
         <div class="container footer-content">
-            <p>&copy; 2026 Austine Okenu. All rights reserved.</p>
+            <p>&copy; 2026 Austine. All rights reserved.</p>
             <div class="footer-links">
-                <a href="https://github.com/aokenu" target="_blank"><i class='bx bxl-github'></i></a>
-                <a href="https://www.linkedin.com/in/austine-okenu-697431b0/" target="_blank"><i
-                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/aokenu" target="_blank" rel="noopener" aria-label="GitHub"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/austine-okenu-697431b0/" target="_blank" rel="noopener"
+                    aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
             </div>
         </div>
     </footer>
